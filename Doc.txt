@@ -1,0 +1,27 @@
+Run the sample scenario
+-----------------------
+. Requirements
+	+ Graph input accessible via a URI (e.g., on local host)
+. Execution
+	+ Run class csm.scenario.Main
+. Simulating dynamic change
+	+ After running class csm.scenario.Main, the result is shown in the console.
+	+ Type . and enter to show the arcs being monitored by the resource agent
+	+ Follow the instruction on the console to enter a new arc cost change
+		
+
+Search workflow
+---------------
+1. Launcher: csm.scenario.Main
+	Create and launch an instance of the collaborative search model (CSM)
+
+2. Intiate the search: csm.CSM
+	Bootstrap: launch JADE, create and start the intial agents
+	
+3. Agents: csm.agent
+	Agents communicate via messages to coordinate the search
+	
+
+
+ 
+	
